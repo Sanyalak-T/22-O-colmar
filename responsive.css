@@ -1,0 +1,172 @@
+@media only screen and (max-width: 600px) {
+    header {
+        display: none
+    }
+    
+    .header__mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 64px;
+        align-items: center;
+        align-content: center;
+    }
+
+    .header__mobile a img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero figure {
+        width: 100%;
+        height: 100%;
+        margin: 0 0 0 0;
+    }
+
+    .hero figure img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .hero.hero__content {
+        width: 100%;
+    }
+
+    .hero__content div {
+        margin-top: 32px;
+        margin-bottom: 32px;
+        margin-left: 16px;
+    }
+
+    .hero__content div p {
+        font-size: 30px;
+        font-weight: 500;
+        color: rgb(71, 69, 69);
+        margin-bottom: 24px;
+        margin-left: 16px;
+    }
+
+    .hero__content button {
+        width: 70%;
+        margin-top: 25px;
+        padding: 8px 0;
+        color: #fff;
+        background-color: rgb(71, 69, 69);
+        outline: none;
+        border: none;
+        cursor: pointer;
+        margin-right: 16px;
+        margin-bottom: 32px;
+        margin-left: 16px;
+    }
+
+    .info__figure {
+        display: none;
+    }
+
+    .info_content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    .information .info__content article {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 64px;
+    }
+
+    .info__content article h4 {
+        color: rgb(71, 69, 69);
+        font-size: 18px;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    .information .info__content article:last-child {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 32px;
+    }
+
+    .course h2 {
+        margin-top: 32px;
+        margin-bottom: 16px;
+        text-align: center;
+        color: rgb(71, 69, 69);
+    }
+
+    .course__article {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .course__article article {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(221, 208, 208);
+    }
+
+    .course__article article img {
+        display: none;
+    }
+
+    .course__article article p {
+        display: none;
+    }
+
+    .course__article article h3 {
+        color: rgb(71, 69, 69);
+        margin-top: 16px;
+        margin-bottom: 24px;
+        margin-left: 16px;
+    }
+
+    .course__article article h3:last-child {
+        color: rgb(71, 69, 69);
+        margin-top: 16px;
+        margin-bottom: 32px;
+        margin-left: 16px;
+    }
+
+    .thesis {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .thesis h2 {
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+
+    .thesis__section .article__video figure {
+        width: 100%;
+        height: 100%;
+        margin: 0 0 0 0;
+    }
+
+    .thesis__section .article__video video {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .thesis__section .article__video h3 {
+        display: none;
+    }
+
+    .thesis__section .article__video p {
+        display: none;
+    }
+
+    .thesis__section .article__figma {
+        display: none;
+    }
+}

@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>22_O_colmar</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-    <header>
+    <header class="desktop-header">
         <div>
             <img src="/images/ic-logo.svg" alt="logo">
             <span><span class="colmar__bold">Colmar</span>Academy</span>
@@ -21,6 +22,12 @@
             </ul>
         </nav>
     </header>
+    <nav class="header__mobile">
+        <a href="#"><img src="images/ic-logo.svg" alt=""></a>
+        <a href="#"><img src="images/ic-on-campus.svg" alt=""></a> 
+        <a href="#"><img src="images/ic-online.svg" alt=""></a> 
+        <a href="#"><img src="images/ic-login.svg" alt=""></a> 
+    </nav>
     <main>
         <section class="hero">
             <figure>
@@ -55,7 +62,7 @@
                     <div>
                         <h4>Orientation date</h4>
                         <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                        <span>Read more</span>
+                        <span><a href="#">Read more</a></span>
                     </div>
                 </article>
                 <article>
@@ -65,7 +72,7 @@
                     <div>
                         <h4>Our campus</h4>
                         <p>Find which campus is close by you</p>
-                        <span>Read more</span>
+                        <span><a href="#">Read more</a></span>
                     </div>
                 </article>
                 <article>
@@ -75,14 +82,100 @@
                     <div>
                         <h4>Our guest lecture</h4>
                         <p>Join a keynote with Oliver Sack about music in medical tratment</p>
-                        <span>Read more</span>
+                        <span><a href="#">Read more</a></span>
                     </div>
                 </article>
             </div>
         </section>
-        <section class="course">course</section>
-        <section class="thesis">thesis</section>
+        <section class="course">
+            <h2>Start learning</h2>
+            <div class="course__article">
+                <article>
+                    <figure>
+                        <img src="images/course-software.jpg" alt="Software-img">
+                    </figure>
+                    <h3>Software engineering</h3>
+                    <p>Course</p>
+                    <p>Web Sevelopment, Mobile Development, iOT, APIs</p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="images/course-computer-art.jpg" alt="computer-art-img">
+                    </figure>
+                    <h3>Computer art</h3>
+                    <p>Course</p>
+                    <p>Imaging & Design, Web Deisgn, Motion Graphics & Visual Effects</p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="images/course-design.jpg" alt="desing-img">
+                    </figure>
+                    <h3>Design</h3>
+                    <p>Course</p>
+                    <p>User Experience Design , User Research , Visual Design</p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="images/course-data.jpg" alt="data-img">
+                    </figure>
+                    <h3>Data</h3>
+                    <p>Course</p>
+                    <p>Data Science, Gig Data, Sql, Data, Visualiztion</p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="images/course-business.jpg" alt="cusiness-img">
+                    </figure>
+                    <h3>Business</h3>
+                    <p>Course</p>
+                    <p>Product Development, Business Development, Startup</p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="images/course-marketing.jpg" alt="course-marketing-img">
+                    </figure>
+                    <h3>Marketing</h3>
+                    <p>Course</p>
+                    <p>Analytics, Content Marteting, Mobile Marketing</p>
+                </article>
+            </div>
+        </section>
+        <section class="thesis">
+            <h2>Thesis exhibit</h2>
+            <div class="thesis__section">
+                <article class="article__video">
+                    <figure>
+                        <video src="videos/thesis.mp4" controls></video>
+                    </figure>
+                    <h3>Reimagine urban</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos error amet, excepturi, dolorum odio esse beatae laudantium nobis ipsam nihil facilis iusto voluptas fuga labore nostrum dolores eligendi distinctio quo.</p>
+                </article>
+                <article class="article__figma">
+                    <div>
+                        <figure>
+                            <img src="images/thesis-fisma.jpg" alt="">
+                        </figure>
+                        <div>
+                            <h3>Fisma: Design and Prototype</h3>
+                            <p>Designer showcase of new prototype product</p>
+                        </div>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="images/thesis-now-and-then.jpg" alt="">
+                        </figure>
+                        <div>
+                            <h3>Now and Then</h3>
+                            <p>Research Study abount New York</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <span>&copy; Colmar Academy. All rights reserved</span>
+        <span>Terms &nbsp;&nbsp;&nbsp;Privacy</span>
+    </footer>
 </body>
 </html>
