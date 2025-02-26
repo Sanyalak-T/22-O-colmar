@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 24px 32px 24px;
+    height: 64px;
+    align-items: center;
+    align-content: center;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+}
+
+header div img {
+    height: 32px;
+}
+
+header div span {
+    height: 32px;
+    text-transform: uppercase;
+    align-items: center;
+    align-content: center;
+}
+
+header div .colmar__bold {
+    font-weight: 600;
+
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header ul li {
+    margin-left: 16px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: rgb(71, 69, 69);
+}
+
+main {
+    background-color: #ffdcdc;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero figure {
+    margin: 0 24px 32px 24px;
+    width: 60%;
+}
+
+.hero figure img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero__content {
+    width: 40%;
+}
+
+.hero__content div {
+    margin-top: 70px;
+    padding: 20px 0;
+}
+
+.hero__content div h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(71, 69, 69);
+}
+
+.hero__content div + div {
+    margin: 25px 0 25px 0;
+    padding: 0 0;
+}
+
+.hero__content div p {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(71, 69, 69);
+}
+
+.hero__content button {
+    width: 70%;
+    margin-top: 25px;
+    padding: 8px 0;
+    color: #fff;
+    background-color: rgb(71, 69, 69);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.information {
+    display: flex;
+    margin: 0 24px 32px 24px;
+}
+
+.information .info__figure figure{
+    width: 60%;
+}
+
+.information figure img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.information h3 {
+    margin: 32px 0;
+}
+
+.information p {
+    margin-bottom: 32px;
+    width: 60%;
+}
+
+.information span {
+    margin-bottom: 32px;
+}
+
+.information .info_content article{
+    width: 40%;
+}
