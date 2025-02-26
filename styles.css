@@ -68,6 +68,7 @@ main {
 
 .hero {
     display: flex;
+    width: 100%;
 }
 
 .hero figure {
@@ -75,13 +76,13 @@ main {
     width: 60%;
 }
 
+.hero__content {
+    width: 40%;
+}
+
 .hero figure img {
     width: 100%;
     object-fit: cover;
-}
-
-.hero__content {
-    width: 40%;
 }
 
 .hero__content div {
@@ -120,14 +121,24 @@ main {
 .information {
     display: flex;
     margin: 0 24px 32px 24px;
+    width: 100%;
 }
 
-.information .info__figure figure{
+.information .info__figure {
     width: 60%;
 }
 
+.information .info_content {
+    width: 40%;
+}
+
+.information figure{
+    width: auto;
+    height: auto;
+}
+
 .information figure img{
-    width: 100%;
+    width: 80%;
     object-fit: cover;
 }
 
@@ -137,21 +148,17 @@ main {
 
 .information p {
     margin-bottom: 32px;
-    width: 60%;
+    width: 100%;
 }
 
 .information span {
     margin-bottom: 32px;
 }
 
-.information .info_content article{
-    width: 40%;
-}
-
 .information .info__content {
     display: flex;
     flex-direction: column;
-} 
+}
 
 .information .info__content article {
     display: flex;

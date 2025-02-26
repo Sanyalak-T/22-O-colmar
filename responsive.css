@@ -34,7 +34,7 @@
         object-fit: cover;
     }
 
-    .hero.hero__content {
+    .hero__content {
         width: 100%;
     }
 
@@ -53,17 +53,17 @@
     }
 
     .hero__content button {
-        width: 70%;
+        width: 90%;
         margin-top: 25px;
+        margin-right: 16px;
+        margin-bottom: 32px;
+        margin-left: 16px;
         padding: 8px 0;
         color: #fff;
         background-color: rgb(71, 69, 69);
         outline: none;
         border: none;
         cursor: pointer;
-        margin-right: 16px;
-        margin-bottom: 32px;
-        margin-left: 16px;
     }
 
     .info__figure {
@@ -75,6 +75,21 @@
         flex-direction: column;
         margin-top: 16px;
         margin-left: 16px;
+    }
+
+    .info__content article {
+        width: auto;
+        height: auto;
+    }
+
+    .info__content article figure {
+        width: 100%;
+        height: 80%;
+    }
+
+    .info__content article figure img {
+        width: 100%;
+        height: 100%;
     }
 
     .information .info__content article {
@@ -140,6 +155,7 @@
     .thesis {
         display: flex;
         flex-direction: column;
+        margin-left: 0;
     }
 
     .thesis h2 {
@@ -147,10 +163,11 @@
         margin-bottom: 16px;
     }
 
-    .thesis__section .article__video figure {
+    .thesis__section .article__video {
         width: 100%;
         height: 100%;
-        margin: 0 0 0 0;
+        margin-right: 0;
+        margin-bottom: 24px;
     }
 
     .thesis__section .article__video video {
@@ -167,6 +184,17 @@
     }
 
     .thesis__section .article__figma {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    footer span + span{
         display: none;
     }
 }
